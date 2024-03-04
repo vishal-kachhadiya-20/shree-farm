@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.home-h1 {
+  font-family: "Arvo", serif;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  word-spacing: 1px;
+  text-transform: capitalize;
+  padding: 30px 0px;
+  line-height: 42px;
+}
+
+.con-h4 {
+  font-family: "Arvo", serif;
+  font-size: medium;
+}
+
+.con {
+  background-color: #f8f9fa;
+}
+
+
+ul.p-0 {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+
+ul.p-0 li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+
+}
+
+ul.p-0 li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+
+  top: 50%;
+  font-family: "Arvo", serif;
+  word-break: break-all;
+  transform: translateY(-50%);
+
+  width: 20px;
+  /* Width of the custom marker */
+  height: 20px;
+  /* Height of the custom marker */
+  background-image: url('./Images/check-mark.png');
+  /* Path to your custom marker image */
+  background-size: contain;
+
+  background-repeat: no-repeat;
+
+}
+
+.anchor {
+  text-decoration: none;
+  margin: 0px 10px;
+  color: black;
+}
+
+.button {
+  text-decoration: none;
+  padding: 11px 30px;
+  background-color: #f8f9fa;
+  margin-top: 20px;
+  border-radius: 5px;
+  background: #008000;
+  color: white;
+  border: none;
+  transition: all .2s;
+}
+
+.button:hover {
+  background-color: #03da03;
+}
+
+.logo {
+  height: 60px;
+  width: 120px;
+  object-fit: cover;
+
+}
+
+.header-bg {
+  background-color: white;
+}
